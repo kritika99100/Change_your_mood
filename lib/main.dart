@@ -628,12 +628,8 @@ class CHANGEYOURROMANTICMOOD extends StatelessWidget {
               Positioned(child: CircleAvatar(child: Icon(Icons.arrow_back)),right: 50,top: 100,), 
                 ],
               ),
-              Stack(
-                children: [
-                  Image.network("https://www.scienceofpeople.com/wp-content/uploads/2022/07/image-51.png"),
-              Positioned(child: CircleAvatar(child: Icon(Icons.arrow_back)),right: 50,top: 100,), 
-                ],
-              ),
+              Image.network("https://www.scienceofpeople.com/wp-content/uploads/2022/07/image-51.png"),
+                            Positioned(child: CircleAvatar(child: Icon(Icons.arrow_back)),right: 50,top: 100,),
             ],
           ),
         ),
@@ -641,7 +637,6 @@ class CHANGEYOURROMANTICMOOD extends StatelessWidget {
     );
   }
 } 
-
 
 
 class CHANGEYOURFOODYMOOD extends StatelessWidget {
